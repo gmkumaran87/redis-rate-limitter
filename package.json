@@ -1,0 +1,27 @@
+{
+	"name": "redis-rate-limitter",
+	"version": "1.0.0",
+	"description": "This repository contains BE logic for redis and rate limitter implementations for Github repo search",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon src/index.js --ignore ./db"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gmkumaran87/redis-rate-limitter.git"
+	},
+	"author": "Muthukumaran",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/gmkumaran87/redis-rate-limitter/issues"
+	},
+	"homepage": "https://github.com/gmkumaran87/redis-rate-limitter#readme",
+	"dependencies": {
+		"axios": "^1.7.9",
+		"cors": "^2.8.5",
+		"express": "^4.21.2",
+		"nodemon": "^3.1.9",
+		"redis": "^4.7.0"
+	}
+}
